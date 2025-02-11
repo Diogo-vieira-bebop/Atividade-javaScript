@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Diogo</title>
+</head>
+<style> 
+    
+        p{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            max-height: none;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    
+        button{
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 20px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+        }
+</style>
+<body>
+    <header>    
+    <p>Olá, Você gostaria de aumentar, ou diminuir a fonte?</p>
+    </header>
+    
+    <button onclick="aumentar()">Clique para aumentar</button>
+    <button onclick="Diminuir()">Clique para aumentar</button>
+<script>
+    function aumentar(){
+        document.body.style.fontSize = "20px";
+    }   
+    function Diminuir(){
+        document.body.style.fontSize = "10px";
+    }
+</Script>
+</body>
+</html>
